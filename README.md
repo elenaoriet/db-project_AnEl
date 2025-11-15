@@ -30,21 +30,24 @@ Im geforkte Repo:
 ------------------------------------------------------------------------
 
 ## 🌐 2. PythonAnywhere vorbereiten
+👉 https://www.pythonanywhere.com
 
-### 2.1 Neue Flask-Webapp erstellen
-1.	Login auf https://www.pythonanywhere.com
-2.	Menü: Web → Add new web app
-3.	Flask auswählen
-4.	Python 3.13 auswählen
+### 2.1 Teacher hinzufügen
+1. Account → Education → *Enter your teacher's username*
 
-### 2.2 Webapp-Verzeichnis ersetzen
+### 2.2 Neue Flask-Webapp erstellen
+1.	Menü: Web → Add new web app
+2.	Flask auswählen
+3.	Python 3.13 auswählen
+
+### 2.3 Webapp-Verzeichnis ersetzen
 1.	Zurück zur Webübersicht
 2.	Jetzt Terminal öffnen\
 → Open Bash Console
 
 ``` bash
 # Das von GitHub geforkte Repo klonen
-git clone https://github.com/dein_name>/<dein_repo>.git
+git clone https://github.com/<dein_name>/<dein_repo>.git
 
 # Alte Struktur löschen
 rm -rf mysite
@@ -55,7 +58,7 @@ mv <dein_repo> mysite
 
 ------------------------------------------------------------------------
 
-### 2.3 Autodeployment (post-merge Hook)
+### 2.4 Autodeployment (post-merge Hook)
 Damit Änderungen von GitHub automatisch deployed werden:
 
 ``` bash
