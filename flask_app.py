@@ -15,7 +15,7 @@ logging.basicConfig(
     format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
 )
 
-# Load .env variables
+# Load environment varibles (e.g. secrets and coonfiguration)
 load_dotenv()
 W_SECRET = os.getenv("W_SECRET")
 
